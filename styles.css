@@ -1,5 +1,5 @@
 body{
-    background: color #000;;
+    background-color:  #000;
     border: red;
 }
 div.content h1 {
@@ -16,19 +16,21 @@ li {
 
 h1 {
     color:white;
-    margin-left: center;
+    margin-left: 50px;
     font: large;
     ;
 }
 p {
-    color: brown;
-    margin-left: center;
+    color: #964B00;
+    margin-left: 50px;
   
 }
 
 figure {
     border: black;
-    margin: center;
+    margin: 50px;
+    height: 100px;
+    width: 100px;
 }
 figure img {
     max-width: 100%;
