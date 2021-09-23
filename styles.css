@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    background: color #000;;
+    border: red;
 }
 h1 {
     color: blueviolet;
@@ -7,16 +8,19 @@ h1 {
 }
 li {
     color: white;
+    font: small;
 }
 
 h1 {
     color: beige;
     margin-left: center;
+    font: large;
     ;
 }
 p {
     color: brown;
     margin-left: center;
+  
 }
 
 figure {
