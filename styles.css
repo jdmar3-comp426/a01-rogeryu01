@@ -2,17 +2,20 @@ body{
     background: color #000;;
     border: red;
 }
-h1 {
+div.content h1 {
     color: blueviolet;
     margin-left: 500px;
 }
+div.content {
+    margin: 50px;
+}
 li {
-    color: white;
+    color:white ;
     font: small;
 }
 
 h1 {
-    color: beige;
+    color:white;
     margin-left: center;
     font: large;
     ;
@@ -24,5 +27,32 @@ p {
 }
 
 figure {
+    border: black;
     margin: center;
 }
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav,div.header, div.footer {
+    background-color: black;
+    border-radius: 10px;
+}
+nav, div.header {
+    margin: 0 0 20px 0;
+    padding: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:hover {
+    border-style: none none solid none;
+}
+
+
+
+
+
