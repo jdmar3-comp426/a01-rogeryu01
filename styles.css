@@ -1,0 +1,62 @@
+body{
+    background-color:  #000;
+    border: red;
+}
+div.content h1 {
+    color: blueviolet;
+    margin-left: 500px;
+}
+div.content {
+    margin: 50px;
+}
+li {
+    color:white ;
+    font: small;
+}
+
+h1 {
+    color:white;
+    margin-left: 50px;
+    font: large;
+    ;
+}
+p {
+    color: #964B00;
+    margin-left: 50px;
+  
+}
+
+figure {
+    border: black;
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+}
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav,div.header, div.footer {
+    background-color: black;
+    border-radius: 10px;
+}
+nav, div.header {
+    margin: 0 0 20px 0;
+    padding: 20px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:hover {
+    border-style: none none solid none;
+}
+
+#para1 {
+    text-align: center;
+}
+
+
+
